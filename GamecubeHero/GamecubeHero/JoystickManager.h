@@ -1,0 +1,16 @@
+//
+//  JoystickManager.h
+//  GamecubeHero
+//
+//  Created by Christopher Hitchcock on 12/28/18.
+//  Copyright © 2018 Christopher Hitchcock. All rights reserved.
+//
+
+#ifndef __GamecubeHero__JoystickManager__
+#define __GamecubeHero__JoystickManager__
+
+#include <iostream>
+
+
+
+#endif /* defined(__GamecubeHero__JoystickManager__) */

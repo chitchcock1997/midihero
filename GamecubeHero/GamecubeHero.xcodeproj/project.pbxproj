@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C81544F21D725350039616F /* NoteManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81544D21D725350039616F /* NoteManager.cpp */; };
+		2C81545221D729800039616F /* Note.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81545021D729800039616F /* Note.cpp */; };
+		2C81545521D72A4D0039616F /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81545321D72A4D0039616F /* ResourceManager.cpp */; };
+		2C81546621D772B20039616F /* circleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545621D772B20039616F /* circleButton.png */; };
+		2C81546721D772B20039616F /* circleLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545721D772B20039616F /* circleLongNote.png */; };
+		2C81546821D772B20039616F /* downButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545821D772B20039616F /* downButton.png */; };
+		2C81546921D772B20039616F /* dpadLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545921D772B20039616F /* dpadLongNote.png */; };
+		2C81546A21D772B20039616F /* leftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545A21D772B20039616F /* leftButton.png */; };
+		2C81546B21D772B20039616F /* numberLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545B21D772B20039616F /* numberLongNote.png */; };
+		2C81546C21D772B20039616F /* oneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545C21D772B20039616F /* oneButton.png */; };
+		2C81546D21D772B20039616F /* rightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545D21D772B20039616F /* rightButton.png */; };
+		2C81546E21D772B20039616F /* squareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545E21D772B20039616F /* squareButton.png */; };
+		2C81546F21D772B20039616F /* squareLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81545F21D772B20039616F /* squareLongNote.png */; };
+		2C81547021D772B20039616F /* triangleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546021D772B20039616F /* triangleButton.png */; };
+		2C81547121D772B20039616F /* triangleLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546121D772B20039616F /* triangleLongNote.png */; };
+		2C81547221D772B20039616F /* twoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546221D772B20039616F /* twoButton.png */; };
+		2C81547321D772B20039616F /* upButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546321D772B20039616F /* upButton.png */; };
+		2C81547421D772B20039616F /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546421D772B20039616F /* xButton.png */; };
+		2C81547521D772B20039616F /* xLongNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C81546521D772B20039616F /* xLongNote.png */; };
+		2C81547821D7D2800039616F /* Lanes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81547621D7D27F0039616F /* Lanes.cpp */; };
+		2C81547B21D7D2BC0039616F /* NoteTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81547921D7D2BC0039616F /* NoteTypes.cpp */; };
+		2C81547E21D7D3F90039616F /* NoteSpawnManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81547C21D7D3F90039616F /* NoteSpawnManager.cpp */; };
+		2C81548121D7D4640039616F /* PlayableSong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81547F21D7D4640039616F /* PlayableSong.cpp */; };
+		2C81549921D7DFC30039616F /* Binasc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549321D7DFC30039616F /* Binasc.cpp */; };
+		2C81549A21D7DFC30039616F /* MidiEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549421D7DFC30039616F /* MidiEvent.cpp */; };
+		2C81549B21D7DFC30039616F /* MidiEventList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549521D7DFC30039616F /* MidiEventList.cpp */; };
+		2C81549C21D7DFC30039616F /* MidiFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549621D7DFC30039616F /* MidiFile.cpp */; };
+		2C81549D21D7DFC30039616F /* MidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549721D7DFC30039616F /* MidiMessage.cpp */; };
+		2C81549E21D7DFC30039616F /* Options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C81549821D7DFC30039616F /* Options.cpp */; };
+		2C8154A021D7E10D0039616F /* alphabet_songvoice.mid in Resources */ = {isa = PBXBuildFile; fileRef = 2C81549F21D7E10D0039616F /* alphabet_songvoice.mid */; };
+		2C8154A321D7F3150039616F /* MIDIlovania.mid in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A121D7F3150039616F /* MIDIlovania.mid */; };
+		2C8154A421D7F3150039616F /* The_Eagles_-_Hotel_California.mid in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A221D7F3150039616F /* The_Eagles_-_Hotel_California.mid */; };
+		2C8154AA21D7F9CE0039616F /* gradient0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A521D7F9CE0039616F /* gradient0.jpg */; };
+		2C8154AB21D7F9CE0039616F /* gradient1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A621D7F9CE0039616F /* gradient1.png */; };
+		2C8154AC21D7F9CE0039616F /* gradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A721D7F9CE0039616F /* gradient2.png */; };
+		2C8154AD21D7F9CE0039616F /* gradient4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A821D7F9CE0039616F /* gradient4.png */; };
+		2C8154AE21D7F9CE0039616F /* gradient5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154A921D7F9CE0039616F /* gradient5.jpg */; };
+		2C8154B021D808AE0039616F /* MIDIlovania.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154AF21D808AE0039616F /* MIDIlovania.ogg */; };
+		2C8154B221D80F590039616F /* The_Eagles_-_Hotel_California.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154B121D80F590039616F /* The_Eagles_-_Hotel_California.ogg */; };
+		2C8154B421D80F850039616F /* alphabet_songvoice.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2C8154B321D80F850039616F /* alphabet_songvoice.ogg */; };
+		2CE8A27B21D71FB400A62DCC /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8A27A21D71FB400A62DCC /* ResourcePath.mm */; };
+		2CE8A27E21D71FB400A62DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8A27D21D71FB400A62DCC /* main.cpp */; };
+		2CE8A28121D71FB400A62DCC /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8A28021D71FB400A62DCC /* cute_image.jpg */; };
+		2CE8A28321D71FB400A62DCC /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8A28221D71FB400A62DCC /* nice_music.ogg */; };
+		2CE8A28521D71FB400A62DCC /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8A28421D71FB400A62DCC /* sansation.ttf */; };
+		2CE8A28721D71FB400A62DCC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8A28621D71FB400A62DCC /* icon.png */; };
+		2CE8A28F21D7203200A62DCC /* JoystickController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8A28D21D7203200A62DCC /* JoystickController.cpp */; };
+		2CE8A29221D7207300A62DCC /* JoystickManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8A29021D7207300A62DCC /* JoystickManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C81544D21D725350039616F /* NoteManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteManager.cpp; sourceTree = "<group>"; };
+		2C81544E21D725350039616F /* NoteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteManager.h; sourceTree = "<group>"; };
+		2C81545021D729800039616F /* Note.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Note.cpp; sourceTree = "<group>"; };
+		2C81545121D729800039616F /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		2C81545321D72A4D0039616F /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
+		2C81545421D72A4D0039616F /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		2C81545621D772B20039616F /* circleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleButton.png; sourceTree = "<group>"; };
+		2C81545721D772B20039616F /* circleLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleLongNote.png; sourceTree = "<group>"; };
+		2C81545821D772B20039616F /* downButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downButton.png; sourceTree = "<group>"; };
+		2C81545921D772B20039616F /* dpadLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadLongNote.png; sourceTree = "<group>"; };
+		2C81545A21D772B20039616F /* leftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftButton.png; sourceTree = "<group>"; };
+		2C81545B21D772B20039616F /* numberLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numberLongNote.png; sourceTree = "<group>"; };
+		2C81545C21D772B20039616F /* oneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneButton.png; sourceTree = "<group>"; };
+		2C81545D21D772B20039616F /* rightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightButton.png; sourceTree = "<group>"; };
+		2C81545E21D772B20039616F /* squareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareButton.png; sourceTree = "<group>"; };
+		2C81545F21D772B20039616F /* squareLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareLongNote.png; sourceTree = "<group>"; };
+		2C81546021D772B20039616F /* triangleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleButton.png; sourceTree = "<group>"; };
+		2C81546121D772B20039616F /* triangleLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangleLongNote.png; sourceTree = "<group>"; };
+		2C81546221D772B20039616F /* twoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twoButton.png; sourceTree = "<group>"; };
+		2C81546321D772B20039616F /* upButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upButton.png; sourceTree = "<group>"; };
+		2C81546421D772B20039616F /* xButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xButton.png; sourceTree = "<group>"; };
+		2C81546521D772B20039616F /* xLongNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xLongNote.png; sourceTree = "<group>"; };
+		2C81547621D7D27F0039616F /* Lanes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lanes.cpp; sourceTree = "<group>"; };
+		2C81547721D7D2800039616F /* Lanes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lanes.h; sourceTree = "<group>"; };
+		2C81547921D7D2BC0039616F /* NoteTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteTypes.cpp; sourceTree = "<group>"; };
+		2C81547A21D7D2BC0039616F /* NoteTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTypes.h; sourceTree = "<group>"; };
+		2C81547C21D7D3F90039616F /* NoteSpawnManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoteSpawnManager.cpp; sourceTree = "<group>"; };
+		2C81547D21D7D3F90039616F /* NoteSpawnManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteSpawnManager.h; sourceTree = "<group>"; };
+		2C81547F21D7D4640039616F /* PlayableSong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayableSong.cpp; sourceTree = "<group>"; };
+		2C81548021D7D4640039616F /* PlayableSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayableSong.h; sourceTree = "<group>"; };
+		2C81548521D7D9100039616F /* Binasc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Binasc.h; sourceTree = "<group>"; };
+		2C81548621D7D9100039616F /* MidiEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiEvent.h; sourceTree = "<group>"; };
+		2C81548721D7D9100039616F /* MidiEventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiEventList.h; sourceTree = "<group>"; };
+		2C81548821D7D9100039616F /* MidiFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFile.h; sourceTree = "<group>"; };
+		2C81548921D7D9100039616F /* MidiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiMessage.h; sourceTree = "<group>"; };
+		2C81548A21D7D9100039616F /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		2C81549321D7DFC30039616F /* Binasc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Binasc.cpp; sourceTree = "<group>"; };
+		2C81549421D7DFC30039616F /* MidiEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiEvent.cpp; sourceTree = "<group>"; };
+		2C81549521D7DFC30039616F /* MidiEventList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiEventList.cpp; sourceTree = "<group>"; };
+		2C81549621D7DFC30039616F /* MidiFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiFile.cpp; sourceTree = "<group>"; };
+		2C81549721D7DFC30039616F /* MidiMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiMessage.cpp; sourceTree = "<group>"; };
+		2C81549821D7DFC30039616F /* Options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Options.cpp; sourceTree = "<group>"; };
+		2C81549F21D7E10D0039616F /* alphabet_songvoice.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = alphabet_songvoice.mid; sourceTree = "<group>"; };
+		2C8154A121D7F3150039616F /* MIDIlovania.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = MIDIlovania.mid; sourceTree = "<group>"; };
+		2C8154A221D7F3150039616F /* The_Eagles_-_Hotel_California.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "The_Eagles_-_Hotel_California.mid"; sourceTree = "<group>"; };
+		2C8154A521D7F9CE0039616F /* gradient0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient0.jpg; sourceTree = "<group>"; };
+		2C8154A621D7F9CE0039616F /* gradient1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient1.png; sourceTree = "<group>"; };
+		2C8154A721D7F9CE0039616F /* gradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient2.png; sourceTree = "<group>"; };
+		2C8154A821D7F9CE0039616F /* gradient4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient4.png; sourceTree = "<group>"; };
+		2C8154A921D7F9CE0039616F /* gradient5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient5.jpg; sourceTree = "<group>"; };
+		2C8154AF21D808AE0039616F /* MIDIlovania.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MIDIlovania.ogg; sourceTree = "<group>"; };
+		2C8154B121D80F590039616F /* The_Eagles_-_Hotel_California.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The_Eagles_-_Hotel_California.ogg"; sourceTree = "<group>"; };
+		2C8154B321D80F850039616F /* alphabet_songvoice.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = alphabet_songvoice.ogg; sourceTree = "<group>"; };
+		2CE8A27521D71FB400A62DCC /* GamecubeHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamecubeHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE8A27921D71FB400A62DCC /* GamecubeHero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GamecubeHero-Info.plist"; sourceTree = "<group>"; };
+		2CE8A27A21D71FB400A62DCC /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		2CE8A27C21D71FB400A62DCC /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		2CE8A27D21D71FB400A62DCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2CE8A28021D71FB400A62DCC /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		2CE8A28221D71FB400A62DCC /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		2CE8A28421D71FB400A62DCC /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		2CE8A28621D71FB400A62DCC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2CE8A28D21D7203200A62DCC /* JoystickController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JoystickController.cpp; sourceTree = "<group>"; };
+		2CE8A28E21D7203200A62DCC /* JoystickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickController.h; sourceTree = "<group>"; };
+		2CE8A29021D7207300A62DCC /* JoystickManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JoystickManager.cpp; sourceTree = "<group>"; };
+		2CE8A29121D7207300A62DCC /* JoystickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE8A27121D71FB400A62DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C81548421D7D9030039616F /* Midifile */ = {
+			isa = PBXGroup;
+			children = (
+				2C81548521D7D9100039616F /* Binasc.h */,
+				2C81548621D7D9100039616F /* MidiEvent.h */,
+				2C81548721D7D9100039616F /* MidiEventList.h */,
+				2C81548821D7D9100039616F /* MidiFile.h */,
+				2C81548921D7D9100039616F /* MidiMessage.h */,
+				2C81548A21D7D9100039616F /* Options.h */,
+				2C81549321D7DFC30039616F /* Binasc.cpp */,
+				2C81549421D7DFC30039616F /* MidiEvent.cpp */,
+				2C81549521D7DFC30039616F /* MidiEventList.cpp */,
+				2C81549621D7DFC30039616F /* MidiFile.cpp */,
+				2C81549721D7DFC30039616F /* MidiMessage.cpp */,
+				2C81549821D7DFC30039616F /* Options.cpp */,
+			);
+			name = Midifile;
+			sourceTree = "<group>";
+		};
+		2CE8A26B21D71FB400A62DCC = {
+			isa = PBXGroup;
+			children = (
+				2C81548421D7D9030039616F /* Midifile */,
+				2CE8A27721D71FB400A62DCC /* GamecubeHero */,
+				2CE8A27621D71FB400A62DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE8A27621D71FB400A62DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8A27521D71FB400A62DCC /* GamecubeHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE8A27721D71FB400A62DCC /* GamecubeHero */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8A27A21D71FB400A62DCC /* ResourcePath.mm */,
+				2CE8A27C21D71FB400A62DCC /* ResourcePath.hpp */,
+				2CE8A27D21D71FB400A62DCC /* main.cpp */,
+				2C81547721D7D2800039616F /* Lanes.h */,
+				2C81547621D7D27F0039616F /* Lanes.cpp */,
+				2C81547D21D7D3F90039616F /* NoteSpawnManager.h */,
+				2C81547C21D7D3F90039616F /* NoteSpawnManager.cpp */,
+				2C81548021D7D4640039616F /* PlayableSong.h */,
+				2C81547F21D7D4640039616F /* PlayableSong.cpp */,
+				2C81544E21D725350039616F /* NoteManager.h */,
+				2C81544D21D725350039616F /* NoteManager.cpp */,
+				2C81545121D729800039616F /* Note.h */,
+				2C81545021D729800039616F /* Note.cpp */,
+				2C81547A21D7D2BC0039616F /* NoteTypes.h */,
+				2C81547921D7D2BC0039616F /* NoteTypes.cpp */,
+				2C81545421D72A4D0039616F /* ResourceManager.h */,
+				2C81545321D72A4D0039616F /* ResourceManager.cpp */,
+				2CE8A28E21D7203200A62DCC /* JoystickController.h */,
+				2CE8A28D21D7203200A62DCC /* JoystickController.cpp */,
+				2CE8A29121D7207300A62DCC /* JoystickManager.h */,
+				2CE8A29021D7207300A62DCC /* JoystickManager.cpp */,
+				2CE8A27F21D71FB400A62DCC /* Resources */,
+				2CE8A27821D71FB400A62DCC /* Supporting Files */,
+			);
+			path = GamecubeHero;
+			sourceTree = "<group>";
+		};
+		2CE8A27821D71FB400A62DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8A27921D71FB400A62DCC /* GamecubeHero-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE8A27F21D71FB400A62DCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C8154B321D80F850039616F /* alphabet_songvoice.ogg */,
+				2C8154AF21D808AE0039616F /* MIDIlovania.ogg */,
+				2C8154B121D80F590039616F /* The_Eagles_-_Hotel_California.ogg */,
+				2C81549F21D7E10D0039616F /* alphabet_songvoice.mid */,
+				2C8154A121D7F3150039616F /* MIDIlovania.mid */,
+				2C8154A221D7F3150039616F /* The_Eagles_-_Hotel_California.mid */,
+				2C8154A521D7F9CE0039616F /* gradient0.jpg */,
+				2C8154A621D7F9CE0039616F /* gradient1.png */,
+				2C8154A721D7F9CE0039616F /* gradient2.png */,
+				2C8154A821D7F9CE0039616F /* gradient4.png */,
+				2C8154A921D7F9CE0039616F /* gradient5.jpg */,
+				2C81545621D772B20039616F /* circleButton.png */,
+				2C81545721D772B20039616F /* circleLongNote.png */,
+				2C81545821D772B20039616F /* downButton.png */,
+				2C81545921D772B20039616F /* dpadLongNote.png */,
+				2C81545A21D772B20039616F /* leftButton.png */,
+				2C81545B21D772B20039616F /* numberLongNote.png */,
+				2C81545C21D772B20039616F /* oneButton.png */,
+				2C81545D21D772B20039616F /* rightButton.png */,
+				2C81545E21D772B20039616F /* squareButton.png */,
+				2C81545F21D772B20039616F /* squareLongNote.png */,
+				2C81546021D772B20039616F /* triangleButton.png */,
+				2C81546121D772B20039616F /* triangleLongNote.png */,
+				2C81546221D772B20039616F /* twoButton.png */,
+				2C81546321D772B20039616F /* upButton.png */,
+				2C81546421D772B20039616F /* xButton.png */,
+				2C81546521D772B20039616F /* xLongNote.png */,
+				2CE8A28021D71FB400A62DCC /* cute_image.jpg */,
+				2CE8A28221D71FB400A62DCC /* nice_music.ogg */,
+				2CE8A28421D71FB400A62DCC /* sansation.ttf */,
+				2CE8A28621D71FB400A62DCC /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE8A27421D71FB400A62DCC /* GamecubeHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE8A28A21D71FB400A62DCC /* Build configuration list for PBXNativeTarget "GamecubeHero" */;
+			buildPhases = (
+				2CE8A27021D71FB400A62DCC /* Sources */,
+				2CE8A27121D71FB400A62DCC /* Frameworks */,
+				2CE8A27221D71FB400A62DCC /* Resources */,
+				2CE8A27321D71FB400A62DCC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamecubeHero;
+			productName = GamecubeHero;
+			productReference = 2CE8A27521D71FB400A62DCC /* GamecubeHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE8A26C21D71FB400A62DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Christopher Hitchcock";
+				TargetAttributes = {
+					2CE8A27421D71FB400A62DCC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2CE8A26F21D71FB400A62DCC /* Build configuration list for PBXProject "GamecubeHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CE8A26B21D71FB400A62DCC;
+			productRefGroup = 2CE8A27621D71FB400A62DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE8A27421D71FB400A62DCC /* GamecubeHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE8A27221D71FB400A62DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE8A28721D71FB400A62DCC /* icon.png in Resources */,
+				2C81546721D772B20039616F /* circleLongNote.png in Resources */,
+				2C81546921D772B20039616F /* dpadLongNote.png in Resources */,
+				2C8154AE21D7F9CE0039616F /* gradient5.jpg in Resources */,
+				2C81547121D772B20039616F /* triangleLongNote.png in Resources */,
+				2C8154A321D7F3150039616F /* MIDIlovania.mid in Resources */,
+				2C81547321D772B20039616F /* upButton.png in Resources */,
+				2C8154A021D7E10D0039616F /* alphabet_songvoice.mid in Resources */,
+				2C81547421D772B20039616F /* xButton.png in Resources */,
+				2C81546621D772B20039616F /* circleButton.png in Resources */,
+				2C8154AB21D7F9CE0039616F /* gradient1.png in Resources */,
+				2C8154B421D80F850039616F /* alphabet_songvoice.ogg in Resources */,
+				2C81546D21D772B20039616F /* rightButton.png in Resources */,
+				2CE8A28521D71FB400A62DCC /* sansation.ttf in Resources */,
+				2C81547221D772B20039616F /* twoButton.png in Resources */,
+				2C8154B021D808AE0039616F /* MIDIlovania.ogg in Resources */,
+				2CE8A28321D71FB400A62DCC /* nice_music.ogg in Resources */,
+				2C81546A21D772B20039616F /* leftButton.png in Resources */,
+				2C81547021D772B20039616F /* triangleButton.png in Resources */,
+				2C8154AC21D7F9CE0039616F /* gradient2.png in Resources */,
+				2C8154A421D7F3150039616F /* The_Eagles_-_Hotel_California.mid in Resources */,
+				2CE8A28121D71FB400A62DCC /* cute_image.jpg in Resources */,
+				2C81547521D772B20039616F /* xLongNote.png in Resources */,
+				2C8154AA21D7F9CE0039616F /* gradient0.jpg in Resources */,
+				2C81546E21D772B20039616F /* squareButton.png in Resources */,
+				2C81546B21D772B20039616F /* numberLongNote.png in Resources */,
+				2C81546C21D772B20039616F /* oneButton.png in Resources */,
+				2C8154AD21D7F9CE0039616F /* gradient4.png in Resources */,
+				2C81546F21D772B20039616F /* squareLongNote.png in Resources */,
+				2C8154B221D80F590039616F /* The_Eagles_-_Hotel_California.ogg in Resources */,
+				2C81546821D772B20039616F /* downButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE8A27321D71FB400A62DCC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE8A27021D71FB400A62DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C81545521D72A4D0039616F /* ResourceManager.cpp in Sources */,
+				2C81547E21D7D3F90039616F /* NoteSpawnManager.cpp in Sources */,
+				2C81548121D7D4640039616F /* PlayableSong.cpp in Sources */,
+				2C81549921D7DFC30039616F /* Binasc.cpp in Sources */,
+				2CE8A27E21D71FB400A62DCC /* main.cpp in Sources */,
+				2C81544F21D725350039616F /* NoteManager.cpp in Sources */,
+				2CE8A27B21D71FB400A62DCC /* ResourcePath.mm in Sources */,
+				2C81545221D729800039616F /* Note.cpp in Sources */,
+				2C81549D21D7DFC30039616F /* MidiMessage.cpp in Sources */,
+				2C81549E21D7DFC30039616F /* Options.cpp in Sources */,
+				2C81549C21D7DFC30039616F /* MidiFile.cpp in Sources */,
+				2C81547821D7D2800039616F /* Lanes.cpp in Sources */,
+				2C81549B21D7DFC30039616F /* MidiEventList.cpp in Sources */,
+				2C81547B21D7D2BC0039616F /* NoteTypes.cpp in Sources */,
+				2CE8A28F21D7203200A62DCC /* JoystickController.cpp in Sources */,
+				2C81549A21D7DFC30039616F /* MidiEvent.cpp in Sources */,
+				2CE8A29221D7207300A62DCC /* JoystickManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CE8A28821D71FB400A62DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		2CE8A28921D71FB400A62DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		2CE8A28B21D71FB400A62DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GamecubeHero/GamecubeHero-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CE8A28C21D71FB400A62DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GamecubeHero/GamecubeHero-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE8A26F21D71FB400A62DCC /* Build configuration list for PBXProject "GamecubeHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE8A28821D71FB400A62DCC /* Debug */,
+				2CE8A28921D71FB400A62DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE8A28A21D71FB400A62DCC /* Build configuration list for PBXNativeTarget "GamecubeHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE8A28B21D71FB400A62DCC /* Debug */,
+				2CE8A28C21D71FB400A62DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE8A26C21D71FB400A62DCC /* Project object */;
+}
